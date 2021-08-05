@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 100px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5rem;
+}
+.header__container {
+    font-size: 0.4rem;
+    text-align: center;
+    background-color: #001d3d;
+    color: white;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__container {
+    background-color: #003566;
+    color: white;
+    height: 100vh;
+    text-align: left;
+    padding: 0.15rem;
+    font-size: 0.3rem;
+}
