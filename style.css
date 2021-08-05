@@ -28,3 +28,6 @@ body {
     padding: 0.15rem;
     font-size: 0.3rem;
 }
+.main__container--post {
+    margin: 0.2rem 0;
+}
