@@ -9,6 +9,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 0.5rem;
+    background-color: #003566;
 }
 .header__container {
     font-size: 0.4rem;
@@ -20,13 +21,20 @@ body {
     align-items: center;
     justify-content: center;
 }
+.main {
+    display: flex;
+    justify-content: center;
+}
 .main__container {
     background-color: #003566;
     color: white;
     height: 100vh;
+    width: 80%;
     text-align: left;
     padding: 0.15rem;
     font-size: 0.3rem;
+    border: white 0.02rem solid;
+    border-radius: 0.5rem;
 }
 .main__container--post {
     margin: 0.2rem 0;
